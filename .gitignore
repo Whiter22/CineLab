@@ -22,5 +22,5 @@ pnpm-debug.log*
 *.sw?
 
 # Custom directories
-assets/sources1
-assets/sources2
+src/assets/sources1
+src/assets/sources2
