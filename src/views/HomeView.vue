@@ -5,8 +5,8 @@
             <video id="main-BG-video" autoplay loop muted playsinline>
                 <source src="../assets/sources/background_video_mobile.mp4" type="video/mp4" media="(max-width: 1280px)">
                 <source src="../assets/sources/background_video_full_HD.mp4" type="video/mp4" media="(min-width: 1281px) and (max-width: 1920px)">
-                <source src="../assets/sources/background_video_2k.mp4" type="video/mp4" media="(min-width: 1921px) and (max-width: 2559px)">
-                <source src="../assets/sources/background_video_4k.mp4" type="video/mp4" media="(min-width: 2560px)">
+                <source src="../assets/sources/background_video_2k.mp4" type="video/mp4" media="(min-width: 1921px) and (max-width: 2560px)">
+                <source src="../assets/sources/background_video_4k.mp4" type="video/mp4" media="(min-width: 2561px)">
                 Twoja przeglądarka nie obsługuje tagu wideo.
             </video>
             <div class="content">
