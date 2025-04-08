@@ -3,9 +3,7 @@
         <div class="bg-container" :class="{ scrolled: scrollUp }"></div>
 
         <div class="promo-container promo-offer-container">
-            <div class="promo-video-holder">
-                <iframe src="https://www.youtube.com/embed/JPZK623D93k?list=PLoy1Kdz_aGIFqI_r2BKa8277iG6UNL1WO" loading="lazy" title="Teledysk ślubny Justyny i Rafała" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+           
             <div class="desc-text-holder">
                 <div class="text-container offers-text">
                     <h1 class="welcome-text">Film Ślubny</h1><br>
@@ -25,9 +23,7 @@
         </div>
 
         <div class="promo-container">
-            <div class="promo-video-holder">
-                <iframe width="1897" height="785" src="https://www.youtube.com/embed/QgsD4ihitAM" title="IV Moto Piknik w Rudkach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
-            </div>
+           
             <div class="desc-text-holder hovered">
                 <div class="text-container  offers-text">
                     <h1 class="welcome-text">Relacja z Eventu</h1><br>
@@ -47,9 +43,7 @@
         </div>
 
         <div class="promo-container">
-            <div class="promo-video-holder">
-                <iframe src="https://www.youtube.com/embed/SYy9ohEcSFI?list=PLoy1Kdz_aGIFqI_r2BKa8277iG6UNL1WO" loading="lazy" title="Szczecin at Night | Lumix S5 with 50mm F1.8 | Cinematic video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+           
                 <div class="desc-text-holder">
                 <div class="text-container  offers-text">
                     <h1 class="welcome-text">Teledysk</h1><br>

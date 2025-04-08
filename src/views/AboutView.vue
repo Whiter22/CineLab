@@ -12,27 +12,27 @@
 
     <section class="about-sections">
         <div class="about-section">
-            <div class="about-image about-image-1"></div>
-            <div class="section-text slide-in">
+            <div class="section-text">
                 <h2 class="welcome-text">Moja Historia</h2>
                 <p class="welcome-text">CineLab to projekt, który tworzę już od 2018 roku, choć początki produkcji pierwszych filmów sięgają jeszcze wcześniej. Filmy z tych pierwszych lat są ukryte – z perspektywy czasu wiem, że miały swoje wady, ale to dzięki nim nauczyłem się tak wiele i mogłem rozwijać swoją pasję. Tworzenie filmów, od pomysłu przez realizację aż po postprodukcję, stało się czymś więcej niż hobby – przerodziło się w projekt wspomniany na początku, czyli CineLab. Jego celem, oprócz oczywiście tworzenie pięknych filmów jest również współpraca z ludźmi, którzy podzielają moją pasję. W zależności od skali projektu, współpracuję z dźwiękowcem, operatorem drona, mistrzem oświetlenia czy scenarzystą. Natomiast projekty takie jak film ślubny czy relacja z eventu, realizuję osobiście. Dbam o to aby każdy film był dostosowany indywidualnie do potrzeb klienta, a w wolnych chwilach CineLab staje się moją przestrzenią do tworzenia własnych filmów i nieustannego doskonalenia swoich umiejętności, aby być coraz lepszym w tym co robię.</p>
             </div>
+            <div class="about-image about-image-1"></div>
         </div>
 
         <div class="about-section reverse">
-            <div class="about-image about-image-2"></div>
-            <div class="section-text slide-in from-right">
+            <div class="section-text from-right">
                 <h2 class="welcome-text">Moje Podejście</h2>
                 <p class="welcome-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam a excepturi hic voluptates aperiam omnis voluptate perferendis exercitationem ut dolorem cupiditate est, architecto ipsa temporibus natus ullam. Ex, corporis laudantium.</p>
             </div>
+            <div class="about-image about-image-2"></div>
         </div>
 
         <div class="about-section">
-            <div class="about-image about-image-3"></div>
-            <div class="section-text slide-in">
+            <div class="section-text">
                 <h2 class="welcome-text">Coś o sprzecie</h2>
                 <p class="welcome-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum praesentium, commodi recusandae libero dicta quia sunt nemo accusantium assumenda, corrupti aspernatur! Reiciendis nobis autem, dolore iste cum maiores quos.</p>
             </div>
+            <div class="about-image about-image-3"></div>
         </div>
     </section>
   </div>
@@ -94,6 +94,12 @@ export default {
   }
 
   @media (max-width: 700px){
+    .about-text{
+        order: 1;
+    }
+    .image-holder{
+        order: 2;
+    }
       #about{
           flex-direction: column;
       }
