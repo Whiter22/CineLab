@@ -5,7 +5,7 @@
             <li><router-link :to="{ name: 'About' }" @click="closeSidebar">O mnie</router-link></li>
             <li><router-link :to="{ name: 'Offers' }" @click="closeSidebar">Oferta</router-link></li>
             <li><router-link to="/#form-section" @click="closeSidebar">Kontakt</router-link></li>
-            <li><a href="https://www.youtube.com/@cine-lab"><i class="fab fa-youtube"></i></a> &nbsp;&nbsp; <a href="https://www.instagram.com/cinelab.art/"><i class="fab fa-instagram"></i></a> &nbsp;&nbsp; <a href="https://www.facebook.com/profile.php?id=100063625446737"><i class="fab fa-facebook-f"></i></a></li> &nbsp;&nbsp; <li><a href="https://www.facebook.com/profile.php?id=100063625446737" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://www.youtube.com/@cine-lab"><i class="fab fa-youtube"></i></a> &nbsp;&nbsp; <a href="https://www.instagram.com/cinelab.art/"><i class="fab fa-instagram"></i></a> &nbsp;&nbsp; <a href="https://www.facebook.com/profile.php?id=100063625446737"><i class="fab fa-facebook-f"></i></a> &nbsp;&nbsp; <a href="https://www.tiktok.com/@cinelab.art" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
         </ul>
     </div>
 </template>

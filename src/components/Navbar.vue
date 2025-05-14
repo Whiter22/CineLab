@@ -17,7 +17,7 @@
             <li><a href="https://www.youtube.com/@cine-lab" target="_blank"><i class="fab fa-youtube"></i></a></li>
             <li><a href="https://www.instagram.com/cinelab.art/" target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/profile.php?id=100063625446737" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100063625446737" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://www.tiktok.com/@cinelab.art" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
         </ul>
     </nav>
 </template>
