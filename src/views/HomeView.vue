@@ -122,48 +122,22 @@ export default {
   mixins: [ scrollMixin ],
   components: { Form },
   mounted() {
-    window.addEventListener('scroll', this.checkSlide)
     this.scrollToHash(this.$route.hash)
   },
 // W sekcji methods w komponencie
 methods: {
   scrollToHash(hash){
       if (hash){
-          let element = document.querySelector(hash)
+          let element = document.querySelector(hash);
           
           if (element)
-              element.scrollIntoView({ behaviour: 'smooth'})
+              element.scrollIntoView({ behaviour: 'smooth'});
       }
       else {
           window.scrollTo({ top: 0, behavior: 'smooth' });
       }
-  },
-  checkSlide() {
-    const sliders = document.querySelectorAll('.slide-in');
-    sliders.forEach(slider => {
-      // Obliczamy pozycję, przy której element powinien się pokazać
-      // Pokazujemy element, gdy jest 25% widoczny w oknie przeglądarki
-      const slideInAt = window.scrollY + window.innerHeight - slider.offsetHeight / 4;
-      const elementBottom = slider.offsetTop + slider.offsetHeight;
-      const isPartiallyVisible = slideInAt > slider.offsetTop;
-      const isNotScrolledPast = window.scrollY < elementBottom;
-      
-      if (isPartiallyVisible && isNotScrolledPast) {
-        slider.classList.add('active');
-      }
-    });
+    }
   }
-},
-mounted() {
-  window.addEventListener('scroll', this.checkSlide);
-  // Wywołaj checkSlide od razu po zamontowaniu komponentu
-  this.$nextTick(() => {
-    this.checkSlide();
-    // Wywołujemy jeszcze raz po niewielkim opóźnieniu dla elementów, które są już w widoku
-    setTimeout(() => this.checkSlide(), 300);
-  });
-  this.scrollToHash(this.$route.hash);
-}
 }
 </script>
 
@@ -178,6 +152,11 @@ mounted() {
   --light-accent: #fdf0e6;
   --dark-accent: #264653;
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.welcome-text{
+  color: #555;
+  line-height: 1.6;
 }
 
 /* Zachowujemy oryginalne style dla tekstów welcome */
@@ -307,6 +286,12 @@ mounted() {
   flex: 1;
   min-width: 300px;
   padding: 1rem;
+
+  text-align: justify;
+  text-justify: inter-word;
+
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .video-wrapper {
@@ -355,18 +340,18 @@ mounted() {
   margin-bottom: 1.5rem;
 }
 
-.welcome-text.slide-in {
+/* .welcome-text.slide-in {
   opacity: 0;
   transform: translateX(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
   line-height: 1.7;
-  color: #555;
-}
+  color: #ff0000;
+} */
 
-.welcome-text.slide-in.active {
+/* .welcome-text.slide-in.active {
   opacity: 1;
   transform: translateX(0);
-}
+} */
 
 .service-action {
   margin-top: 2rem;
@@ -407,11 +392,6 @@ mounted() {
 
   .mid-promo {
     flex-direction: column-reverse;
-  }
-
-  .promo-video-holder, .desc-text-holder {
-    width: 100%;
-    margin-bottom: 2rem;
   }
 
   .section-title {

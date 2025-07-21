@@ -1,7 +1,5 @@
 <template>
     <section id="offers">
-        <div class="bg-container" :class="{ scrolled: scrollUp }"></div>
-
         <div class="offers-wrapper">
             <h2 class="section-title">
                 <i class="fas fa-film"></i> Film Ślubny
@@ -85,11 +83,12 @@
 </template>
 
 <script>
-import scrollMixin from '@/mixins/scrollMixin'
+import scrollMixin from "@/mixins/scrollMixin";
 
-export default {
-    mixins: [ scrollMixin ]
+export default{
+    mixins: [scrollMixin]
 }
+
 </script>
 
 <style scoped>
@@ -102,19 +101,6 @@ export default {
     --light-accent: #fdf0e6;
     --dark-accent: #264653;
     --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-}
-
-.bg-container {
-    top: 0;
-    position: sticky;
-    width: 100%;
-    height: 120px;
-    background-image: url('../assets/sources/bg-about.png');
-    transition: height 0.7s;
-}
-
-.scrolled {
-    height: 80px;
 }
 
 #offers {
@@ -277,8 +263,11 @@ export default {
 
 #contact-link-container {
     display: flex;
+    position: relative;
     justify-content: center;
     padding: 3rem 0;
+     
+    z-index: 60;
 }
 
 #contact-link {

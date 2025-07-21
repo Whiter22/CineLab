@@ -24,3 +24,4 @@ pnpm-debug.log*
 # Custom directories
 src/assets/sources/
 src/assets/sources2/
+src/assetsCompressed.zip

@@ -1,16 +1,10 @@
 export default {
-    data() {
-        return {
-            scrollUp: false
-        }
-    },
     mounted() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         window.addEventListener('scroll', this.checkSlide);
-        window.addEventListener('scroll', this.scrollUpElement);
     },
     beforeDestroy() {
         window.removeEventListener('scroll', this.checkSlide);
-        window.removeEventListener('scroll', this.scrollUpElement);
     },
     methods: {
         checkSlide() {
@@ -24,9 +18,6 @@ export default {
                     element.classList.add('show');
                 }
             });
-        },
-        scrollUpElement(){
-            this.scrollUp = window.scrollY > 600
         }
     }
 }

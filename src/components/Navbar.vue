@@ -1,5 +1,6 @@
 <template>
-      <nav class="navbar" :class="{ scrolled: isScrolled}">
+      <nav class="navbar" :class="{ scrolled: isScrolled, 
+                                    altNavbar: ['About', 'Offers'].includes($route.name)}">
         <div class="logo" @click="turnOffSidebar">
             <router-link :to="{name: 'Home'}">
                 <img src="../assets/sources/logo.png" alt="logo">
@@ -13,7 +14,7 @@
         <ul class="nav-links normal-size-links">
             <li><router-link :to="{ name: 'About' }">O mnie</router-link></li>
             <li><router-link :to="{ name: 'Offers' }">Oferta</router-link></li>
-            <li><router-link to="/#form-section">Kontakt</router-link></li>
+            <li @click.prevent="scrollToFormInHomePage"><router-link to="/#form-section">Kontakt</router-link></li>
             <li><a href="https://www.youtube.com/@cine-lab" target="_blank"><i class="fab fa-youtube"></i></a></li>
             <li><a href="https://www.instagram.com/cinelab.art/" target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/profile.php?id=100063625446737" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -23,7 +24,10 @@
 </template>
 
 <script>
+import goToForm from '@/mixins/goToFormMixin.js'
+
 export default {
+    mixins: [goToForm],
     props: [ 'sideBarShown' ],
     data() {
         return {
@@ -35,7 +39,7 @@ export default {
     },
     methods: {
         handleScroll(){
-            this.isScrolled = window.scrollY > 600
+            this.isScrolled = window.scrollY >= 600
         },
         turnOnSidebar(){
             this.$emit('turnOnSidebar')
@@ -55,6 +59,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+.altNavbar{
+    background-image: url('../assets/sources/bg-about.png');
+    position: sticky;
+}
 
 </style>

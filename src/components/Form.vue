@@ -67,28 +67,28 @@ return {
 methods: {
 sendEmail() {
   emailjs
-    .sendForm('service_9ptm6g5', 'template_b87a12g', this.$refs.form, {
-      publicKey: '77z53EQtFAPzbrevl',
-    })
-    .then(
-      () => {
-        this.formMassage = 'SUCCESS'
-        this.showFormMassage = true
-        // console.log(this.formMassage);
-      },
-      (error) => {
-        this.formMassage = 'FAILED'
-        console.log(this.formMassage, error.text);
-      },
-    );
-},
+        .sendForm('service_9ptm6g5', 'template_b87a12g', this.$refs.form, {
+        publicKey: '77z53EQtFAPzbrevl',
+        })
+        .then(
+            () => {
+                this.formMassage = 'SUCCESS'
+                this.showFormMassage = true
+                // console.log(this.formMassage);
+            },
+            (error) => {
+                this.formMassage = 'FAILED'
+                console.log(this.formMassage, error.text);
+            },
+        );
+    },
 },
 mounted() {
-const script = document.createElement('script');
-script.src = 'https://www.google.com/recaptcha/api.js';
-script.async = true;
-script.defer = true;
-document.head.appendChild(script);
+    const script = document.createElement('script');
+    script.src = 'https://www.google.com/recaptcha/api.js';
+    script.async = true;
+    script.defer = true;
+    document.head.appendChild(script);
 }
 };
 </script>
