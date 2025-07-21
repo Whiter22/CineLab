@@ -58,14 +58,17 @@
   </script>
   
   <style scoped>
-  .bg-container{
+ .hero-image{
+    margin-top: 90px;
+  }
+  /* .bg-container{
     top: 0;
     position: sticky;
     width: 100%;
     height: 120px;
     background-image: url('../assets/sources/bg-about.png');
     transition: height 0.7s;
-  }
+  } */
   /* Header Background */
   .bg-header {
     position: sticky;
@@ -248,6 +251,7 @@
     }
     
     .hero-image {
+      margin-top: 100px;
       flex: 0 0 auto;
       width: 100%;
       max-width: 400px;
@@ -256,6 +260,9 @@
   }
   
   @media (max-width: 768px) {
+    .hero-image{
+      margin-top: 150px;
+    }
     .hero-content h1 {
       font-size: 2.5rem;
     }

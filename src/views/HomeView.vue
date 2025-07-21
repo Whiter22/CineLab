@@ -62,7 +62,7 @@
                 </div>
                 <h2 class="service-title">Film Ślubny</h2>
                 <div class="service-divider"></div>
-                <p class="welcome-text slide-in">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, assumenda tempore? Quis esse eaque, vel molestias a repellendus autem excepturi. Excepturi libero culpa, non hic rerum ipsum nostrum quas explicabo consectetur quisquam officia, architecto inventore vel quae. Quaerat ex natus quae laborum tenetur amet perspiciatis delectus nisi corrupti nesciunt quos voluptates qui praesentium harum neque, facere voluptatem assumenda veniam ut iure itaque aspernatur recusandae est a!</p>
+                <p class="welcome-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, assumenda tempore? Quis esse eaque, vel molestias a repellendus autem excepturi. Excepturi libero culpa, non hic rerum ipsum nostrum quas explicabo consectetur quisquam officia, architecto inventore vel quae. Quaerat ex natus quae laborum tenetur amet perspiciatis delectus nisi corrupti nesciunt quos voluptates qui praesentium harum neque, facere voluptatem assumenda veniam ut iure itaque aspernatur recusandae est a!</p>
                 <div class="service-action">
                     <router-link to="/offers" class="service-button">Zobacz ofertę</router-link>
                 </div>
@@ -77,7 +77,7 @@
                 </div>
                 <h2 class="service-title">Rolki</h2>
                 <div class="service-divider"></div>
-                <p class="welcome-text slide-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto animi eaque error laborum maiores sunt a perferendis quo delectus autem, eos inventore suscipit nobis tempore possimus modi corrupti sed!</p>
+                <p class="welcome-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto animi eaque error laborum maiores sunt a perferendis quo delectus autem, eos inventore suscipit nobis tempore possimus modi corrupti sed!</p>
                 <div class="service-action">
                     <router-link to="/offers" class="service-button">Zobacz więcej</router-link>
                 </div>
@@ -102,14 +102,14 @@
                 </div>
                 <h2 class="service-title">Relacje z wydarzeń</h2>
                 <div class="service-divider"></div>
-                <p class="welcome-text slide-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto animi eaque error laborum maiores sunt a perferendis quo delectus autem, eos inventore suscipit nobis tempore possimus modi corrupti sed!</p>
+                <p class="welcome-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto animi eaque error laborum maiores sunt a perferendis quo delectus autem, eos inventore suscipit nobis tempore possimus modi corrupti sed!</p>
                 <div class="service-action">
                     <router-link to="/offers" class="service-button">Zobacz ofertę</router-link>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <Form/>
   </div>
 </template>
