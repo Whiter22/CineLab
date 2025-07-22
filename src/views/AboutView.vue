@@ -5,7 +5,8 @@
         <div class="hero-image"></div>
         <div class="hero-content">
           <h1>Cześć!</h1>
-          <p class = "slide-in show">Mam na imię Mikołaj. Tworzenie emocjonujących i przyciągających uwagę widza filmów to moja pasja. Dążę do tego, by moje kadry niosły ze sobą emocje, a wszystkie projekty traktuję indywidualnie, dbając o to, by każdy film opowiadał unikalną historię, która na długo zostanie w pamięci. Zapraszam do kontaktu!</p>
+          <p class = "slide-in show">Mam na imię Mikołaj. Tworzenie emocjonujących i przyciągających uwagę widza filmów to moja pasja. Dążę do tego, by moje kadry niosły ze sobą emocje, a wszystkie projekty traktuję indywidualnie, dbając o to, by każdy film opowiadał unikalną historię, która na długo zostanie w pamięci.
+          W swoich filmach staram się osiągnąć cinematic look - ten filmowy, kinowy charakter, który nadaje każdemu kadrowi głębi i sprawia, że obraz wygląda jak z prawdziwego filmu. To właśnie ta estetyka pozwala przenieść widza w sam środek opowiadanej historii.</p>
         </div>
       </section>
   
@@ -26,7 +27,8 @@
           <div class="section-text">
             <h2>Moje Podejście</h2>
             <div class="section-underline"></div>
-            <p class = "slide-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam a excepturi hic voluptates aperiam omnis voluptate perferendis exercitationem ut dolorem cupiditate est, architecto ipsa temporibus natus ullam. Ex, corporis laudantium.</p>
+            <p class = "slide-in">Każdy projekt to dla mnie nowa historia do opowiedzenia. Nie ma dwóch identycznych filmów, bo nie ma dwóch identycznych momentów. Słucham, obserwuję i staram się zrozumieć, co jest najważniejsze dla moich klientów.
+            Wierzę, że najlepsze kadry powstają naturalnie - kiedy ludzie zapominają o kamerze i po prostu żyją chwilą. Moja rola to wychwycić te autentyczne emocje i przekształcić je w opowieść, która porusza.</p>
           </div>
           <div class="section-image approach-image"></div>
         </section>
@@ -36,7 +38,7 @@
           <div class="section-text">
             <h2>Coś o sprzęcie</h2>
             <div class="section-underline"></div>
-            <p class = "slide-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum praesentium, commodi recusandae libero dicta quia sunt nemo accusantium assumenda, corrupti aspernatur! Reiciendis nobis autem, dolore iste cum maiores quos.</p>
+            <p class = "slide-in">Zaczynałem od nagrywania telefonem, ale z czasem zacząłem inwestować w lepszy sprzęt. Dziś pracuję na zestawie, który zapewnia mi swobodę działania i wysoką jakość obrazu oraz dźwięku. To nie wszystko, ale ma duże znaczenie – szczególnie wtedy, gdy liczy się każdy detal.</p>
           </div>
           <div class="section-image equipment-image"></div>
         </section>
@@ -75,7 +77,7 @@ export default {
 .hero-image {
   flex: 0 0 400px;
   height: 533px;
-  background-image: url(../assets/sources2/about.jpg);
+  background-image: url(../assets/sources2/about0.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 8px;
@@ -168,7 +170,7 @@ export default {
 }
 
 .history-image {
-  background-image: url(../assets/sources2/about1.jpg);
+  background-image: url(../assets/sources2/about7.jpg);
 }
 
 .approach-image {
@@ -176,7 +178,8 @@ export default {
 }
 
 .equipment-image {
-  background-image: url(../assets/sources2/about5.jpg);
+  background-image: url(../assets/sources2/about6.jpg);
+  background-position: 0 20%;
 }
 
 /* Alternating Section Background */

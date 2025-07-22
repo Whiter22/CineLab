@@ -62,7 +62,8 @@ export default {
 <style scoped>
 
 .altNavbar{
-    background-image: url('../assets/sources/bg-about.png');
+    /* background-image: url('../assets/sources/bg-about.png'); */
+    background-color: black;
     position: sticky;
 }
 

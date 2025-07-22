@@ -35,14 +35,14 @@
                     <i class="fi fi-br-leadership-alt"></i>
                 </div>
                 <h2>Zadowoleni klienci</h2>
-                <p>Nasze produkcje mówią same za siebie — pozytywne opinie mówią wszystko.</p>
+                <p>Naszym priorytetem jest Twoje zadowolenie — opinie to nasza najlepsza wizytówka.</p>
             </div>
             <div class="welcome-box">
                 <div class="icon-wrapper">
                     <i class="fi fi-br-camera-movie"></i>
                 </div>
                 <h2>Nowoczesny sprzęt</h2>
-                <p>Pracujemy na profesjonalnym sprzęcie filmowym, by dostarczać kinową jakość.</p>
+                <p>Pracujemy na nowoczesnym sprzęcie filmowym, by zapewniać wysoką jakość obrazu i dźwięku.</p>
             </div>
         </div>
     </section>
@@ -62,7 +62,9 @@
                 </div>
                 <h2 class="service-title">Film Ślubny</h2>
                 <div class="service-divider"></div>
-                <p class="welcome-text slide-in">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, assumenda tempore? Quis esse eaque, vel molestias a repellendus autem excepturi. Excepturi libero culpa, non hic rerum ipsum nostrum quas explicabo consectetur quisquam officia, architecto inventore vel quae. Quaerat ex natus quae laborum tenetur amet perspiciatis delectus nisi corrupti nesciunt quos voluptates qui praesentium harum neque, facere voluptatem assumenda veniam ut iure itaque aspernatur recusandae est a!</p>
+                <p class="welcome-text slide-in">Wasze najważniejsze chwile zasługują na to, by zostać utrwalone na zawsze. Każdy uśmiech, każde wzruszenie, każdy moment radości - wszystko to może stać się piękną historią opowiedzianą przez obraz.
+                Wyobraźcie sobie, że za kilka lat będziecie mogli ponownie przeżyć ten wyjątkowy dzień, zobaczyć reakcje najbliższych i usłyszeć słowa, które padły podczas ceremonii.
+                Pozwólcie, że Wasz ślub stanie się filmem, do którego będziecie wracać przez całe życie.</p>
                 <div class="service-action">
                     <router-link to="/offers" class="service-button">Zobacz ofertę</router-link>
                 </div>
@@ -77,9 +79,12 @@
                 </div>
                 <h2 class="service-title">Rolki</h2>
                 <div class="service-divider"></div>
-                <p class="welcome-text slide-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto animi eaque error laborum maiores sunt a perferendis quo delectus autem, eos inventore suscipit nobis tempore possimus modi corrupti sed!</p>
+                <p class="welcome-text slide-in">Twoje pomysły zasługują na profesjonalną realizację. Każda rolka to szansa na zbudowanie zasięgu, zaangażowanie odbiorców i wyróżnienie się w mediach społecznościowych.
+                  Wysokiej jakości obraz, dynamiczny montaż i treści, które przyciągają uwagę - tak powstają rolki, które działają. Niezależnie czy promujiesz biznes, dzielisz się pasją, czy po prostu chcesz stworzyć coś kreatywnego.
+                  Spraw, żeby Twoja historia wyróżniła się w morzu treści i dotarła do odpowiednich ludzi.</p>
                 <div class="service-action">
-                    <router-link to="/offers" class="service-button">Zobacz więcej</router-link>
+                    <a href="https://www.youtube.com/@cine-lab" class="service-button" target="_blank" rel="noopener">Zobacz więcej</a>
+
                 </div>
             </div>
             <div class="promo-video-holder">
@@ -102,7 +107,9 @@
                 </div>
                 <h2 class="service-title">Relacje z wydarzeń</h2>
                 <div class="service-divider"></div>
-                <p class="welcome-text slide-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto animi eaque error laborum maiores sunt a perferendis quo delectus autem, eos inventore suscipit nobis tempore possimus modi corrupti sed!</p>
+                <p class="welcome-text slide-in">Każde wydarzenie ma swoją unikalną atmosferę i energię. Koncerty, konferencje, eventy firmowe, uroczystości - wszystko to momenty, które warto uchwycić i podzielić się nimi ze światem.
+                Profesjonalny materiał filmowy pozwala nie tylko zachować wspomnienia, ale też pokazać innym to, czego nie mogli doświadczyć osobiście. To także doskonały sposób na promocję przyszłych wydarzeń.
+                Niech Twoje wydarzenie zostanie zapamiętane i inspiruje innych do uczestnictwa.</p>
                 <div class="service-action">
                     <router-link to="/offers" class="service-button">Zobacz ofertę</router-link>
                 </div>
