@@ -170,7 +170,7 @@ export default {
 }
 
 .history-image {
-  background-image: url(../assets/sources2/about7.jpg);
+  background-image: url(../assets/sources2/about8.jpg);
 }
 
 .approach-image {
