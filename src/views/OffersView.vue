@@ -13,7 +13,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                         <h3 class="package-title">Pakiet Podstawowy</h3>
-                        <div class="package-price">2000 PLN</div>
+                        <div class="package-price">3500 PLN</div>
                     </div>
                     <div class="package-content">
                         <h4>W skład pakietu wchodzi:</h4>
@@ -35,7 +35,7 @@
                             <i class="fas fa-gem"></i>
                         </div>
                         <h3 class="package-title">Pakiet Premium</h3>
-                        <div class="package-price">2500 PLN</div>
+                        <div class="package-price">4500 PLN</div>
                     </div>
                     <div class="package-content">
                         <h4>W skład pakietu wchodzi:</h4>
@@ -57,7 +57,7 @@
             <div class="additional-services">
                 <h2 class="additional-title">Pozostałe usługi</h2>
                 <div class="additional-content">
-                    <p>Realizuję też filmy reklamowe, promocyjne, relacje z eventów oraz teledyski, ale wycena każdej z tych usług odbywa się indywidualnie i jest uzależniona od potrzeb klienta.</p>
+                    <p>Realizuję też filmy reklamowe, promocyjne, relacje z eventów, rolki oraz teledyski, ale wycena każdej z tych usług odbywa się indywidualnie i jest uzależniona od potrzeb klienta.</p>
                     
                     <div class="note-box">
                         <p>Każda produkcja jest dostosowywana indywidualnie do potrzeb klienta. Możliwe są np. dłuższe ślubne filmy reportażowe lub dodatkowe sesje plenerowe, a także możliwość tworzenia krótszych klipów pod social media. Jeśli masz szczególne życzenia lub pomysły, chętnie je uwzględnię, by stworzyć fantastyczny film. 😊</p>
