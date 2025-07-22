@@ -118,6 +118,35 @@
     </section>
 
     <Form/>
+    <!-- Sekcja kontaktowa -->
+<section id="contact-info">
+  <div class="contact-container">
+    <h2 class="contact-title">Skontaktuj się ze mną</h2>
+    <div class="contact-wrapper">
+      <div class="contact-box">
+        <div class="contact-icon">
+          <i class="fi fi-rr-marker"></i>
+        </div>
+        <h3>Obszar działania</h3>
+        <p>Zachodniopomorskie i okolice</p>
+      </div>
+      <div class="contact-box">
+        <div class="contact-icon">
+          <i class="fi fi-rr-phone-call"></i>
+        </div>
+        <h3>Telefon</h3>
+        <p><a href="tel:+48123456789">+48 781 581 436</a></p>
+      </div>
+      <div class="contact-box">
+        <div class="contact-icon">
+          <i class="fi fi-rr-envelope"></i>
+        </div>
+        <h3>Email</h3>
+        <p><a href="mailto:kontakt@cinelab.pl">kontakt@cinelab.com.pl</a></p>
+      </div>
+    </div>
+  </div>
+</section>
   </div>
 </template>
 
@@ -380,6 +409,112 @@ methods: {
   background-color: #e76f51;
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(231, 111, 81, 0.4);
+}
+
+/* Sekcja kontaktowa */
+#contact-info {
+  padding: 5rem 2rem;
+  background-color: #264653;
+  color: white;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+.contact-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #f4a261;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.contact-box {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.contact-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background-color: rgba(244, 162, 97, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.contact-box:hover .contact-icon {
+  background-color: rgba(244, 162, 97, 0.3);
+}
+
+.contact-icon i {
+  font-size: 40px;
+  color: #f4a261;
+}
+
+.contact-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #f4a261;
+}
+
+.contact-box p {
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-box a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-box a:hover {
+  color: #f4a261;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+  #contact-info {
+    padding: 3rem 1rem;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-wrapper {
+    gap: 2rem;
+  }
+
+  .contact-box {
+    margin-bottom: 1rem;
+  }
 }
 
 /* Responsywność */
