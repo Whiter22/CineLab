@@ -1,7 +1,7 @@
 <template>
   <section id="form-section">
     <div class="form-container">
-        <h2 class="welcome-text">Skontaktuj się ze mną</h2>
+        <h2 class="welcome-text">Zapytaj o ofertę</h2>
         <form id="contact-form" ref='form' @submit.prevent="sendEmail">
             <div class="form-group">
                 <label for="name">Imię\Imiona*</label>

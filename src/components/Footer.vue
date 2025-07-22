@@ -9,7 +9,34 @@
             <a href="https://www.youtube.com/@cine-lab" target="_blank"><i class="fab fa-youtube"></i></a>
             <a href="https://www.instagram.com/cinelab.art/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100063625446737" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100063625446737" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.tiktok.com/@cinelab.art" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
         </div>
+        <div class="footer-copyright">
+   <p>&copy; {{ currentYear }} CineLab. Wszystkie prawa zastrzeżone.</p>
+</div>
     </footer>
 </template>
+
+<script>
+export default {
+    computed: {
+        currentYear() {
+            return new Date().getFullYear();
+        }
+    }
+}
+</script>
+
+<style scoped>
+.footer-copyright {
+    text-align: center;
+    padding-top: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    padding-bottom: 2rem;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+</style>

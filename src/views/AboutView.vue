@@ -15,9 +15,9 @@
         <!-- History Section -->
         <section class="content-section">
           <div class="section-text">
-            <h2>Moja Historia</h2>
+            <h2>Moja historia</h2>
             <div class="section-underline"></div>
-            <p class = "slide-in">CineLab to projekt, który tworzę już od 2018 roku, choć początki produkcji pierwszych filmów sięgają jeszcze wcześniej. Filmy z tych pierwszych lat są ukryte – z perspektywy czasu wiem, że miały swoje wady, ale to dzięki nim nauczyłem się tak wiele i mogłem rozwijać swoją pasję. Tworzenie filmów, od pomysłu przez realizację aż po postprodukcję, stało się czymś więcej niż hobby – przerodziło się w projekt wspomniany na początku, czyli CineLab. Jego celem, oprócz oczywiście tworzenie pięknych filmów jest również współpraca z ludźmi, którzy podzielają moją pasję. W zależności od skali projektu, współpracuję z dźwiękowcem, operatorem drona, mistrzem oświetlenia czy scenarzystą. Natomiast projekty takie jak film ślubny czy relacja z eventu, realizuję osobiście. Dbam o to aby każdy film był dostosowany indywidualnie do potrzeb klienta, a w wolnych chwilach CineLab staje się moją przestrzenią do tworzenia własnych filmów i nieustannego doskonalenia swoich umiejętności, aby być coraz lepszym w tym co robię.</p>
+            <p class = "slide-in">CineLab to projekt, który tworzę już od 2018 roku, choć początki produkcji pierwszych filmów sięgają jeszcze wcześniej. Filmy z tych pierwszych lat są ukryte – z perspektywy czasu wiem, że miały swoje wady, ale to dzięki nim nauczyłem się tak wiele i mogłem rozwijać swoją pasję. Tworzenie filmów, od pomysłu przez realizację aż po postprodukcję, stało się czymś więcej niż hobby – przerodziło się w projekt wspomniany na początku, czyli CineLab. Jego celem, oprócz oczywiście tworzenie pięknych filmów jest również współpraca z ludźmi, którzy podzielają moją pasję. W zależności od skali projektu, współpracuję z dźwiękowcem, operatorem drona, mistrzem oświetlenia czy scenarzystą. Natomiast projekty takie jak film ślubny czy relacja z eventu, realizuję osobiście. Dbam o to, aby każdy film był dostosowany indywidualnie do potrzeb klienta, a w wolnych chwilach CineLab staje się moją przestrzenią do tworzenia własnych filmów i nieustannego doskonalenia swoich umiejętności, aby być coraz lepszym w tym co robię.</p>
           </div>
           <div class="section-image history-image"></div>
         </section>
@@ -25,7 +25,7 @@
         <!-- Approach Section -->
         <section class="content-section reverse">
           <div class="section-text">
-            <h2>Moje Podejście</h2>
+            <h2>Moje podejście</h2>
             <div class="section-underline"></div>
             <p class = "slide-in">Każdy projekt to dla mnie nowa historia do opowiedzenia. Nie ma dwóch identycznych filmów, bo nie ma dwóch identycznych momentów. Słucham, obserwuję i staram się zrozumieć, co jest najważniejsze dla moich klientów.
             Wierzę, że najlepsze kadry powstają naturalnie - kiedy ludzie zapominają o kamerze i po prostu żyją chwilą. Moja rola to wychwycić te autentyczne emocje i przekształcić je w opowieść, która porusza.</p>
@@ -170,7 +170,7 @@ export default {
 }
 
 .history-image {
-  background-image: url(../assets/sources2/about7.jpg);
+  background-image: url(../assets/sources2/about8.jpg);
 }
 
 .approach-image {
