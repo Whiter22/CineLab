@@ -2,9 +2,10 @@
       <nav class="navbar" :class="{ scrolled: isScrolled, 
                                     altNavbar: ['About', 'Offers'].includes($route.name)}">
         <div class="logo" @click="turnOffSidebar">
-            <router-link :to="{name: 'Home'}">
-                <img src="../assets/sources/logo.png" alt="logo">
-            </router-link>
+            <a @click.prevent="handleLogoClick" href="#">
+  <img src="../assets/sources/logo.png" alt="logo">
+</a>
+
         </div>
 
         <div class="mobile-menu-btn hamburger-menu" @click="turnOnSidebar" v-show="showSbButton">
@@ -41,6 +42,18 @@ export default {
         window.addEventListener('scroll', this.handleScroll)
     },
     methods: {
+         handleLogoClick() {
+    if (this.$route.name === 'Home') {
+      // Jesteś już na stronie głównej – scrolluj do góry
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    } else {
+      // Przejdź do strony głównej
+      this.$router.push({ name: 'Home' });
+    }
+  },
         handleScroll(){
             if(this.scrollCooldawn){
                 return;
