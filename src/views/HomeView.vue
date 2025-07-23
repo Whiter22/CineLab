@@ -50,26 +50,27 @@
     <!-- Przeprojektowana sekcja "Promo" -->
     <section id="promo-section">
         <!-- Pierwszy blok promo -->
-        <div class="promo-container">
+         <div class="promo-container">
             <div class="promo-video-holder">
                 <div class="video-wrapper">
-                    <iframe src="https://www.youtube.com/embed/JPZK623D93k?list=PLoy1Kdz_aGIFqI_r2BKa8277iG6UNL1WO" title="Teledysk ślubny Justyny i Rafała" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/QgsD4ihitAM" title="IV Moto Piknik w Rudkach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="desc-text-holder main-page">
                 <div class="service-icon">
-                    <i class="fi fi-rr-rings-wedding"></i>
+                    <i class="fi fi-rr-calendar-star"></i>
                 </div>
-                <h2 class="service-title">Film Ślubny</h2>
+                <h2 class="service-title">Relacje z wydarzeń</h2>
                 <div class="service-divider"></div>
-                <p class="welcome-text slide-in">Wasze najważniejsze chwile zasługują na to, by zostać utrwalone na zawsze. Każdy uśmiech, każde wzruszenie, każdy moment radości - wszystko to może stać się piękną historią opowiedzianą przez obraz.
-                Wyobraźcie sobie, że za kilka lat będziecie mogli ponownie przeżyć ten wyjątkowy dzień, zobaczyć reakcje najbliższych i usłyszeć słowa, które padły podczas ceremonii.
-                Pozwólcie, że Wasz ślub stanie się filmem, do którego będziecie wracać przez całe życie.</p>
+                <p class="welcome-text slide-in">Każde wydarzenie ma swoją unikalną atmosferę i energię. Koncerty, konferencje, eventy firmowe, uroczystości - wszystko to momenty, które warto uchwycić i podzielić się nimi ze światem.
+                Profesjonalny materiał filmowy pozwala nie tylko zachować wspomnienia, ale też pokazać innym to, czego nie mogli doświadczyć osobiście. To także doskonały sposób na promocję przyszłych wydarzeń.
+                Niech Twoje wydarzenie zostanie zapamiętane i inspiruje innych do uczestnictwa.</p>
                 <div class="service-action">
                     <router-link to="/offers" class="service-button">Zobacz ofertę</router-link>
                 </div>
             </div>
         </div>
+        
 
         <!-- Drugi blok promo (środkowy) -->
         <div class="promo-container mid-promo">
@@ -95,26 +96,27 @@
         </div>
 
         <!-- Trzeci blok promo -->
-        <div class="promo-container">
+         <div class="promo-container">
             <div class="promo-video-holder">
                 <div class="video-wrapper">
-                    <iframe src="https://www.youtube.com/embed/QgsD4ihitAM" title="IV Moto Piknik w Rudkach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/JPZK623D93k?list=PLoy1Kdz_aGIFqI_r2BKa8277iG6UNL1WO" title="Teledysk ślubny Justyny i Rafała" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="desc-text-holder main-page">
                 <div class="service-icon">
-                    <i class="fi fi-rr-calendar-star"></i>
+                    <i class="fi fi-rr-rings-wedding"></i>
                 </div>
-                <h2 class="service-title">Relacje z wydarzeń</h2>
+                <h2 class="service-title">Film Ślubny</h2>
                 <div class="service-divider"></div>
-                <p class="welcome-text slide-in">Każde wydarzenie ma swoją unikalną atmosferę i energię. Koncerty, konferencje, eventy firmowe, uroczystości - wszystko to momenty, które warto uchwycić i podzielić się nimi ze światem.
-                Profesjonalny materiał filmowy pozwala nie tylko zachować wspomnienia, ale też pokazać innym to, czego nie mogli doświadczyć osobiście. To także doskonały sposób na promocję przyszłych wydarzeń.
-                Niech Twoje wydarzenie zostanie zapamiętane i inspiruje innych do uczestnictwa.</p>
+                <p class="welcome-text slide-in">Wasze najważniejsze chwile zasługują na to, by zostać utrwalone na zawsze. Każdy uśmiech, każde wzruszenie, każdy moment radości - wszystko to może stać się piękną historią opowiedzianą przez obraz.
+                Wyobraźcie sobie, że za kilka lat będziecie mogli ponownie przeżyć ten wyjątkowy dzień, zobaczyć reakcje najbliższych i usłyszeć słowa, które padły podczas ceremonii.
+                Pozwólcie, że Wasz ślub stanie się filmem, do którego będziecie wracać przez całe życie.</p>
                 <div class="service-action">
                     <router-link to="/offers" class="service-button">Zobacz ofertę</router-link>
                 </div>
             </div>
         </div>
+        
     </section>
 
     <Form/>

@@ -42,15 +42,13 @@
             
             <div class="required-info">Pola oznaczone '*' są obowiązkowe</div>
             
-            <div class="g-recaptcha" data-sitekey="6Ldd1-IqAAAAAIjlU43gUD-uXA9j_hGguzSztLI1"></div>
+            <div class="g-recaptcha" data-sitekey="6Ldd1-IqAAAAAIjlU43gUD-uXA9j_hGguzSztLI1" ref="recaptcha"></div>
             
             <button type="submit" class="submit-btn">Wyślij wiadomość</button>
         </form>
 
-        <div id="status-message">
-            <svg v-show="showFormMassage" width="20" height="20" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 459.53"><path fill-rule="nonzero" d="M9.38 212.26l91.05-1.2c1.9-.01 3.69.53 5.19 1.49 32.96 19.01 62.2 42.95 87.35 71.5 33.32-54.09 68.94-103.63 106.55-149.04C339.7 86.5 382.32 42.5 426.98 2.46a9.464 9.464 0 016.33-2.41L502.67 0c8.53 0 12.23 9.31 6.73 16.26-61.47 68.29-117.32 139.05-167.78 212a2075.014 2075.014 0 00-135.99 226.12c-2.4 4.65-8.14 6.49-12.79 4.09a9.476 9.476 0 01-4.35-4.63C146.26 363.35 86.92 286.45 4.14 229.6c-7.67-5.25-3.96-17.2 5.24-17.34z"/></svg>
-            <p class="welcome-text">{{ formMassage }}</p>
-        </div>
+        <p v-show="showFormMassage" class="welcome-text">{{ formMassage }}</p>
+
     </div>
 </section>
 </template>
@@ -67,19 +65,43 @@ return {
 },
 methods: {
 sendEmail() {
+    const recaptchaResponse = grecaptcha.getResponse();
+
+    if (!recaptchaResponse) {
+      this.formMassage = 'Proszę zaznaczyć CAPTCHA.';
+      this.showFormMassage = true;
+      this.showFormMassage = true;
+        setTimeout(() => {
+        this.showFormMassage = false;
+        }, 5000);
+
+      return;
+    }
   emailjs
         .sendForm('service_zap1626', 'template_6h0o1yn', this.$refs.form, {
         publicKey: 'BFzRiMoB3HUT6FI38',
         })
         .then(
             () => {
-                this.formMassage = 'SUCCESS'
+                this.formMassage = 'Wiadomość została wysłana.'
                 this.showFormMassage = true
+                grecaptcha.reset();
+                this.$refs.form.reset();
+                this.showFormMassage = true;
+                setTimeout(() => {
+                this.showFormMassage = false;
+                }, 5000);
+
                 // console.log(this.formMassage);
             },
             (error) => {
-                this.formMassage = 'FAILED'
+                this.formMassage = 'Wysłanie wiadomości nie powiodło się.'
                 console.log(this.formMassage, error.text);
+                this.showFormMassage = true;
+                setTimeout(() => {
+                this.showFormMassage = false;
+                }, 5000);
+
             },
         );
     },
