@@ -1,7 +1,65 @@
 <template>
     <section id="offers">
         <div class="offers-wrapper">
+            <!-- Inne usługi filmowe -->
             <h2 class="section-title">
+                <i class="fas fa-video"></i> Usługi Filmowe
+            </h2>
+            
+            <div class="services-grid">
+                <!-- Relacje z eventów -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="service-title">Relacje z eventów</h3>
+                    <p class="service-description">
+                        Relacje filmowe z eventów, które oddają klimat chwili. Rejestruję to, co najważniejsze: emocje, ludzi, detale – wszystko, co tworzy wyjątkowy charakter wydarzenia.
+                    </p>
+                </div>
+
+                <!-- Rolki -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Rolki</h3>
+                    <p class="service-description">
+                        Krótkie, dynamiczne formy wideo idealne na social media. 
+                        Skuteczny sposób na przyciągnięcie uwagi w świecie szybkiej konsumpcji treści.
+                    </p>
+                </div>
+
+                <!-- Reklamy -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-title">Reklamy</h3>
+                    <p class="service-description">
+                        Kreatywne spoty reklamowe, które wyróżnią Twoją markę. 
+                        Od koncepcji po realizację.
+                    </p>
+                </div>
+
+                <!-- Filmy promocyjne -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="service-title">Filmy promocyjne</h3>
+                    <p class="service-description">
+                        Tworzę filmy promocyjne, które pomagają wyróżnić się w tłumie. Stawiam na estetykę, dobrą narrację i dopasowanie do Twojej wizji.
+                    </p>
+                </div>
+            </div>
+
+            <div class="services-note">
+                <p>Wycena każdej z tych usług odbywa się indywidualnie i jest uzależniona od potrzeb klienta.</p>
+            </div>
+
+            <!-- Filmy ślubne -->
+            <h2 class="section-title wedding-section">
                 <i class="fas fa-film"></i> Film Ślubny
             </h2>
             
@@ -53,20 +111,15 @@
                 </div>
             </div>
             
-            <!-- Pozostałe usługi -->
-            <div class="additional-services">
-                <h2 class="additional-title">Pozostałe usługi</h2>
-                <div class="additional-content">
-                    <p>Realizuję też filmy reklamowe, promocyjne, relacje z eventów, rolki oraz teledyski, ale wycena każdej z tych usług odbywa się indywidualnie i jest uzależniona od potrzeb klienta.</p>
-                    
-                    <div class="note-box">
-                        <p>Każda produkcja jest dostosowywana indywidualnie do potrzeb klienta. Możliwe są np. dłuższe ślubne filmy reportażowe lub dodatkowe sesje plenerowe, a także możliwość tworzenia krótszych klipów pod social media. Jeśli masz szczególne życzenia lub pomysły, chętnie je uwzględnię, by stworzyć fantastyczny film. 😊</p>
-                    </div>
-                    
-                    <div class="quality-badge">
-                        <i class="fas fa-video"></i>
-                        <p>Filmy dostarczane są w jakości 4K w formie cyfrowej</p>
-                    </div>
+            <!-- Informacje końcowe -->
+            <div class="bottom-info">
+                <div class="note-box">
+                    <p>Każda produkcja jest dostosowywana indywidualnie do potrzeb klienta. Możliwe jest np. stworzenie rolek pod social media. Jeśli masz szczególne życzenia lub pomysły, chętnie je uwzględnię, by stworzyć fantastyczny film. 😊</p>
+                </div>
+                
+                <div class="quality-badge">
+                    <i class="fas fa-video"></i>
+                    <p>Filmy dostarczane są w jakości 4K w formie cyfrowej</p>
                 </div>
             </div>
         </div>
@@ -133,6 +186,72 @@ export default{
     background-color: #f4a261;
 }
 
+.wedding-section {
+    margin-top: 4rem;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .services-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #2a9d8f;
+    margin-bottom: 1.5rem;
+}
+
+.service-title {
+    font-size: 1.4rem;
+    color: #264653;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.service-description {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.services-note {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 3rem;
+    font-style: italic;
+}
+
+/* Wedding Packages */
 .offers-container {
     margin-top: 2rem;
     display: grid;
@@ -218,24 +337,9 @@ export default{
     color: #555;
 }
 
-.additional-services {
-    margin-top: 4rem;
-    background-color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-}
-
-.additional-title {
-    font-size: 1.8rem;
-    color: #264653;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-.additional-content {
-    font-size: 1.1rem;
-    line-height: 1.7;
+/* Bottom Info */
+.bottom-info {
+    margin-top: 3rem;
 }
 
 .note-box {
@@ -261,12 +365,12 @@ export default{
     color: #2a9d8f;
 }
 
+/* Contact Link */
 #contact-link-container {
     display: flex;
     position: relative;
     justify-content: center;
     padding: 3rem 0;
-     
     z-index: 60;
 }
 
