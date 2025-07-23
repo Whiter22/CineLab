@@ -71,11 +71,11 @@ export default {
     watch: {
         '$route.name'(newName){
             if(newName !== 'Home'){
-                console.log("scrollpivot updated");
+                // console.log("scrollpivot updated");
                 this.scrollPivot = 120;
             }
             else {
-                console.log("scrollpivot updated again");
+                // console.log("scrollpivot updated again");
                 this.scrollPivot = 750;
             }
         }

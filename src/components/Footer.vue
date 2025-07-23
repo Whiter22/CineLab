@@ -12,8 +12,15 @@
             <a href="https://www.tiktok.com/@cinelab.art" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
         </div>
         <div class="footer-copyright">
-   <p>&copy; {{ currentYear }} CineLab. Wszystkie prawa zastrzeżone.</p>
-</div>
+            <p><a 
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=rubinxv01@gmail.com&su=Zlecenie%20strony%20internetowej&body=Dzień%20dobry%2C%0AChciałbym%20zlecić%20stronę%20internetową." 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style="text-decoration: none; color: inherit;">
+                    &copy; {{ currentYear }} CineLab. Wszystkie prawa zastrzeżone.
+                </a>
+            </p>
+        </div>
     </footer>
 </template>
 

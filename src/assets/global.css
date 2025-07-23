@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body, html {
     width: 100%;
     height: 100%;
@@ -120,8 +121,6 @@ nav.scrolled{
 }
 
 
-/*utworzenie index.html dziala rezponsywnie ver 1 rezponsywnosc dla nava dziala | main do wyjebania*/
-
 @media (max-width: 768px) and (min-width: 425px) {
     .mobile-menu-btn {
         display: block;
@@ -162,14 +161,6 @@ nav.scrolled{
     color: white;
     z-index: 1;
 }
-
-/* .content h1{
-    font-size: 500%;
-} */
-
-/* .content p{
-    font-size: 200%;
-} */
 
 .welcome-text{
     font-optical-sizing: auto;
@@ -237,8 +228,6 @@ nav.scrolled{
 .desc-container p{
     font-size: 165%;
 }
-
-/*utworzenie index.html dziala rezponsywnie ver 1 footer przerobiony | main do wyjebania*/
 
 footer{
     display: flex;
@@ -362,14 +351,6 @@ main {
         font-size: 2rem;
     }
 }
-
-/*utworzenie index.html dziala rezponsywnie ver 1 wszystko co ponizej dodane | main do wyjebania*/
-
-
-
-/* #welcome-massage{
-    padding: 10px;   
-} */
 
 .promo-container{
     display: flex;
