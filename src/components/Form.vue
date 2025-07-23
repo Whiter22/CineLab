@@ -67,8 +67,13 @@ return {
 methods: {
 sendEmail() {
   emailjs
+<<<<<<< Updated upstream
         .sendForm('service_9ptm6g5', 'template_b87a12g', this.$refs.form, {
         publicKey: '77z53EQtFAPzbrevl'
+=======
+        .sendForm('service_zap1626', 'template_6h0o1yn', this.$refs.form, {
+        publicKey: 'BFzRiMoB3HUT6FI38',
+>>>>>>> Stashed changes
         })
         .then(
             () => {
