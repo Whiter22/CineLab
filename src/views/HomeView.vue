@@ -28,21 +28,21 @@
                     <i class="fi fi-rr-lightbulb-on"></i>
                 </div>
                 <h2>Kreatywność</h2>
-                <p>Tworzymy filmy z duszą, pełne świeżych pomysłów i artystycznej wizji.</p>
+                <p>Tworzę filmy z duszą, pełne świeżych pomysłów i artystycznej wizji.</p>
             </div>
             <div class="welcome-box">
                 <div class="icon-wrapper">
                     <i class="fi fi-br-leadership-alt"></i>
                 </div>
                 <h2>Zadowoleni klienci</h2>
-                <p>Naszym priorytetem jest Twoje zadowolenie — opinie to nasza najlepsza wizytówka.</p>
+                <p>Moim priorytetem jest Twoje zadowolenie — opinie to nasza najlepsza wizytówka.</p>
             </div>
             <div class="welcome-box">
                 <div class="icon-wrapper">
                     <i class="fi fi-br-camera-movie"></i>
                 </div>
                 <h2>Nowoczesny sprzęt</h2>
-                <p>Pracujemy na nowoczesnym sprzęcie filmowym, by zapewniać wysoką jakość obrazu i dźwięku.</p>
+                <p>Pracuję na nowoczesnym sprzęcie, by zapewniać wysoką jakość obrazu i dźwięku.</p>
             </div>
         </div>
     </section>
@@ -81,7 +81,7 @@
                 <h2 class="service-title">Rolki</h2>
                 <div class="service-divider"></div>
                 <p class="welcome-text slide-in">Twoje pomysły zasługują na profesjonalną realizację. Każda rolka to szansa na zbudowanie zasięgu, zaangażowanie odbiorców i wyróżnienie się w mediach społecznościowych.
-                  Wysokiej jakości obraz, dynamiczny montaż i treści, które przyciągają uwagę - tak powstają rolki, które działają. Niezależnie czy promujiesz biznes, dzielisz się pasją, czy po prostu chcesz stworzyć coś kreatywnego.
+                  Wysokiej jakości obraz, dynamiczny montaż i treści, które przyciągają uwagę - tak powstają rolki, które działają. Niezależnie czy promujesz biznes, dzielisz się pasją, czy po prostu chcesz stworzyć coś kreatywnego.
                   Spraw, żeby Twoja historia wyróżniła się w morzu treści i dotarła do odpowiednich ludzi.</p>
                 <div class="service-action">
                     <a href="https://www.youtube.com/@cine-lab" class="service-button" target="_blank" rel="noopener">Zobacz więcej</a>
