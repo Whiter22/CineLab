@@ -25,7 +25,7 @@
                     <option value="wedding">Film ślubny</option>
                     <option value="commercial">Film reklamowy</option>
                     <option value="event">Film z wydarzenia</option>
-                    <option value="event">Rolka</option>
+                    <option value="Rolka">Rolka</option>
                     <option value="other">Inny</option>
                 </select>
             </div>
