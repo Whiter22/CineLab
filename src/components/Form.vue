@@ -25,6 +25,7 @@
                     <option value="wedding">Film ślubny</option>
                     <option value="commercial">Film reklamowy</option>
                     <option value="event">Film z wydarzenia</option>
+                    <option value="event">Rolka</option>
                     <option value="other">Inny</option>
                 </select>
             </div>
@@ -67,8 +68,8 @@ return {
 methods: {
 sendEmail() {
   emailjs
-        .sendForm('service_9ptm6g5', 'template_b87a12g', this.$refs.form, {
-        publicKey: '77z53EQtFAPzbrevl'
+        .sendForm('service_zap1626', 'template_6h0o1yn', this.$refs.form, {
+        publicKey: 'BFzRiMoB3HUT6FI38',
         })
         .then(
             () => {
