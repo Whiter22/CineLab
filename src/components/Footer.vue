@@ -1,9 +1,9 @@
 <template>
     <footer>
         <div class="logo footer-logo">
-            <router-link :to="{ name: 'Home' }">
-                <img src="../assets/sources/logo.png" alt="logo">
-            </router-link>
+
+            <img src="../assets/sources/logo.png" alt="logo">
+           
         </div>
         <div id="footer-links">
             <a href="https://www.youtube.com/@cine-lab" target="_blank"><i class="fab fa-youtube"></i></a>

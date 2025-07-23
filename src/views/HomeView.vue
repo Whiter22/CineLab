@@ -60,7 +60,7 @@
                 <div class="service-icon">
                     <i class="fi fi-rr-calendar-star"></i>
                 </div>
-                <h2 class="service-title">Relacje z wydarzeń</h2>
+                <h2 class="service-title"><span class="no-break">Relacje z</span> <span class="break-on-mobile">wydarzeń</span></h2>
                 <div class="service-divider"></div>
                 <p class="welcome-text slide-in">Każde wydarzenie ma swoją unikalną atmosferę i energię. Koncerty, konferencje, eventy firmowe, uroczystości - wszystko to momenty, które warto uchwycić i podzielić się nimi ze światem.
                 Profesjonalny materiał filmowy pozwala nie tylko zachować wspomnienia, ale też pokazać innym to, czego nie mogli doświadczyć osobiście. To także doskonały sposób na promocję przyszłych wydarzeń.
@@ -191,6 +191,14 @@ methods: {
   --light-accent: #fdf0e6;
   --dark-accent: #264653;
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.no-break {
+  white-space: nowrap;
+}
+
+.break-on-mobile {
+  white-space: nowrap;
 }
 
 .welcome-text{
@@ -522,6 +530,9 @@ methods: {
 
 /* Responsywność */
 @media (max-width: 768px) {
+.no-break {
+    display: block;
+  }
   .welcome-text1 {
     font-size: 28px;
   }
@@ -554,4 +565,8 @@ methods: {
     transition: none;
   }
 }
+
+
+
+
 </style>
