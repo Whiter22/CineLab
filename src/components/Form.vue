@@ -68,7 +68,7 @@ methods: {
 sendEmail() {
   emailjs
         .sendForm('service_9ptm6g5', 'template_b87a12g', this.$refs.form, {
-        publicKey: '77z53EQtFAPzbrevl',
+        publicKey: '77z53EQtFAPzbrevl'
         })
         .then(
             () => {

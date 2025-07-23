@@ -118,35 +118,36 @@
     </section>
 
     <Form/>
+
     <!-- Sekcja kontaktowa -->
-<section id="contact-info">
-  <div class="contact-container">
-    <h2 class="contact-title">Skontaktuj się ze mną</h2>
-    <div class="contact-wrapper">
-      <div class="contact-box">
-        <div class="contact-icon">
-          <i class="fi fi-rr-marker"></i>
-        </div>
-        <h3>Obszar działania</h3>
-        <p>Zachodniopomorskie i okolice</p>
-      </div>
-      <div class="contact-box">
-        <div class="contact-icon">
-          <i class="fi fi-rr-phone-call"></i>
-        </div>
-        <h3>Telefon</h3>
-        <p><a href="tel:+48123456789">+48 781 581 436</a></p>
-      </div>
-      <div class="contact-box">
-        <div class="contact-icon">
-          <i class="fi fi-rr-envelope"></i>
-        </div>
-        <h3>Email</h3>
-        <p><a href="mailto:kontakt@cinelab.pl">kontakt@cinelab.com.pl</a></p>
-      </div>
-    </div>
-  </div>
-</section>
+    <section id="contact-info">
+        <div class="contact-container">
+          <h2 class="contact-title">Skontaktuj się ze mną</h2>
+              <div class="contact-wrapper">
+                  <div class="contact-box">
+                      <div class="contact-icon">
+                        <i class="fi fi-rr-marker"></i>
+                      </div>
+                        <h3>Obszar działania</h3>
+                        <p>Zachodniopomorskie i okolice</p>
+                      </div>
+                  <div class="contact-box">
+                      <div class="contact-icon">
+                        <i class="fi fi-rr-phone-call"></i>
+                      </div>
+                      <h3>Telefon</h3>
+                      <p><a href="tel:+48123456789">+48 781 581 436</a></p>
+                  </div>
+                  <div class="contact-box">
+                      <div class="contact-icon">
+                        <i class="fi fi-rr-envelope"></i>
+                      </div>
+                      <h3>Email</h3>
+                      <p><a href="mailto:kontakt@cinelab.pl">kontakt@cinelab.com.pl</a></p>
+                  </div>
+              </div>
+          </div>
+    </section>
   </div>
 </template>
 
@@ -160,7 +161,7 @@ export default {
   mounted() {
     this.scrollToHash(this.$route.hash)
   },
-// W sekcji methods w komponencie
+
 methods: {
   scrollToHash(hash){
       if (hash){

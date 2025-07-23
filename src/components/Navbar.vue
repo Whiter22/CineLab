@@ -25,13 +25,16 @@
 
 <script>
 import goToForm from '@/mixins/goToFormMixin.js'
+// import { watch } from 'vue'
 
 export default {
     mixins: [goToForm],
     props: [ 'sideBarShown' ],
     data() {
         return {
-            isScrolled: false
+            isScrolled: false,
+            scrollCooldawn: false,
+            scrollPivot: 750,
         }
     },
     mounted() {
@@ -39,7 +42,16 @@ export default {
     },
     methods: {
         handleScroll(){
-            this.isScrolled = window.scrollY >= 600
+            if(this.scrollCooldawn){
+                return;
+            }
+
+            this.isScrolled = window.scrollY >= this.scrollPivot;
+            this.scrollCooldawn = true;
+
+            setTimeout(() => {
+                this.scrollCooldawn = false;
+            }, 100);
         },
         turnOnSidebar(){
             this.$emit('turnOnSidebar')
@@ -55,6 +67,18 @@ export default {
             else
                 return true
         }
+    },
+    watch: {
+        '$route.name'(newName){
+            if(newName !== 'Home'){
+                console.log("scrollpivot updated");
+                this.scrollPivot = 120;
+            }
+            else {
+                console.log("scrollpivot updated again");
+                this.scrollPivot = 750;
+            }
+        }
     }
 }
 </script>
@@ -62,7 +86,6 @@ export default {
 <style scoped>
 
 .altNavbar{
-    /* background-image: url('../assets/sources/bg-about.png'); */
     background-color: black;
     position: sticky;
 }
