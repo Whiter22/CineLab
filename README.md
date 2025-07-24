@@ -3,7 +3,7 @@
 ## About
 Official website of CineLab – a commercial site created for and with my friend to promote his filmmaking and video editing skills.
 
-You can check it out here: [cinelab.com.pl](https://cinelab.com.pl/){target="_blank"}
+You can check it out here: [cinelab.com.pl](https://cinelab.com.pl/)
 
 The application was developed as a Single Page Application (SPA) using Vue 3, allowing for a smooth and dynamic user experience without full page reloads.
 
