@@ -26,6 +26,7 @@
                     <option value="commercial">Film reklamowy</option>
                     <option value="event">Film z wydarzenia</option>
                     <option value="Rolka">Rolka</option>
+                    <option value="Teledysk">Teledysk</option>
                     <option value="other">Inny</option>
                 </select>
             </div>

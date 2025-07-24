@@ -35,23 +35,25 @@
                     <div class="service-icon">
                         <i class="fas fa-bullhorn"></i>
                     </div>
-                    <h3 class="service-title">Reklamy</h3>
+                    <h3 class="service-title">Reklamy i filmy promocyjne</h3>
                     <p class="service-description">
                         Kreatywne spoty reklamowe, które wyróżnią Twoją markę. 
                         Od koncepcji po realizację.
                     </p>
                 </div>
 
-                <!-- Filmy promocyjne -->
+                <!-- Teledyski -->
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-music"></i>
                     </div>
-                    <h3 class="service-title">Filmy promocyjne</h3>
+                    <h3 class="service-title">Teledyski</h3>
                     <p class="service-description">
-                        Tworzę filmy promocyjne, które pomagają wyróżnić się w tłumie. Stawiam na estetykę, dobrą narrację i dopasowanie do Twojej wizji.
+                        Realizuję teledyski dopasowane do charakteru Twojej muzyki. Dbam o spójność obrazu i dźwięku – od koncepcji, przez nagrania, aż po montaż.
                     </p>
                 </div>
+
+                
             </div>
 
             <div class="services-note">

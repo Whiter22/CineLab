@@ -17,7 +17,13 @@
           <div class="section-text">
             <h2>Moja historia</h2>
             <div class="section-underline"></div>
-            <p class = "slide-in">CineLab to projekt, który tworzę już od 2018 roku, choć początki produkcji pierwszych filmów sięgają jeszcze wcześniej. Filmy z tych pierwszych lat są ukryte – z perspektywy czasu wiem, że miały swoje wady, ale to dzięki nim nauczyłem się tak wiele i mogłem rozwijać swoją pasję. Tworzenie filmów, od pomysłu przez realizację aż po postprodukcję, stało się czymś więcej niż hobby – przerodziło się w projekt wspomniany na początku, czyli CineLab. Jego celem, oprócz oczywiście tworzenie pięknych filmów jest również współpraca z ludźmi, którzy podzielają moją pasję. W zależności od skali projektu, współpracuję z dźwiękowcem, operatorem drona, mistrzem oświetlenia czy scenarzystą. Natomiast projekty takie jak film ślubny czy relacja z eventu, realizuję osobiście. Dbam o to, aby każdy film był dostosowany indywidualnie do potrzeb klienta, a w wolnych chwilach CineLab staje się moją przestrzenią do tworzenia własnych filmów i nieustannego doskonalenia swoich umiejętności, aby być coraz lepszym w tym co robię.</p>
+            <p class = "slide-in">CineLab to projekt, który tworzę już od 2018 roku, choć początki mojej przygody z produkcją filmów sięgają jeszcze wcześniejszych lat. Przez ten czas zrobiłem duży progres – to właśnie dzięki doświadczeniom z pierwszych produkcji mogłem rozwijać swoją pasję i umiejętności. <br> <br>
+
+            Tworzenie filmów – od pomysłu, przez realizację, aż po postprodukcję – stało się dla mnie czymś więcej niż tylko hobby. Z czasem przerodziło się w pełnoprawny projekt, jakim jest CineLab. Jego celem, poza tworzeniem pięknych filmów, jest także współpraca z ludźmi, którzy podzielają moją pasję. <br> <br>
+
+            W zależności od skali przedsięwzięcia, współpracuję z dźwiękowcem, operatorem drona, mistrzem oświetlenia czy scenarzystą. Natomiast projekty takie jak film ślubny czy relacja z eventu realizuję samodzielnie. Dbam o to, aby każdy film był indywidualnie dopasowany do potrzeb klienta. <br> <br>
+
+            W wolnych chwilach CineLab staje się moją przestrzenią do tworzenia autorskich produkcji i nieustannego doskonalenia swoich umiejętności, by z każdym projektem być coraz lepszym w tym, co robię.</p>
           </div>
           <div class="section-image history-image"></div>
         </section>
